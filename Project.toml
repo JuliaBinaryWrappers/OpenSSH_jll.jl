@@ -1,6 +1,6 @@
 name = "OpenSSH_jll"
 uuid = "9bd350c2-7e96-507f-8002-3f2e150b4e1b"
-version = "10.0.1+0"
+version = "10.0.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
