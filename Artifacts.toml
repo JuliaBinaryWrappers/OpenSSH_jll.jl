@@ -1,95 +1,95 @@
 [[OpenSSH]]
 arch = "aarch64"
-git-tree-sha1 = "42aca1c3df8561e7adcf3018b7fa3ff404de012f"
+git-tree-sha1 = "ad77167b87225da90d38373ed59370048a061705"
 os = "macos"
 
     [[OpenSSH.download]]
-    sha256 = "fdfff3a663cc16ff65992f256b2202c1d4e6c380be6cab5b982d7a53e6910cd7"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "27e569928573037e276d5324071116acf4294130a720893af1236b39b7cfffa9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.aarch64-apple-darwin.tar.gz"
 [[OpenSSH]]
 arch = "aarch64"
-git-tree-sha1 = "20dc3f19b30e3342d2c3d358f97ad517a0a0276e"
+git-tree-sha1 = "a214135c4aa0e9c808b18d7c0bd556f5eab15e9c"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "d0cc8359a066180f92dd24bb556863bb258903d9a4a10b2d34243827c9766c66"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.aarch64-linux-gnu.tar.gz"
+    sha256 = "f414f6c959a7e58fd3046794f125759225cd7fb1abb7b6c054e1566c5462a307"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.aarch64-linux-gnu.tar.gz"
 [[OpenSSH]]
 arch = "aarch64"
-git-tree-sha1 = "9317dca3342602e6174263f6f341854ae10ea170"
+git-tree-sha1 = "286ef0873e956489e4cdc1579b767e6b3a6ec7ad"
 libc = "musl"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "3d048cde522b77dd0d8ed8c4ce9a3ff3c1e3df5b1c748882266f9114f18bf5d6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.aarch64-linux-musl.tar.gz"
+    sha256 = "113a0f8f1de9f549902e875640011ae8bf34658e577a79a9dfee44531a2e293f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.aarch64-linux-musl.tar.gz"
 [[OpenSSH]]
 arch = "aarch64"
-git-tree-sha1 = "91b3e498fcd27b8028b7edb9dcdbd96f75ca26c0"
+git-tree-sha1 = "da794784063d1f9697b56c9f167290554cc12f07"
 os = "freebsd"
 
     [[OpenSSH.download]]
-    sha256 = "4ebfecdeea5b2b6bdf68af0b661e2b3a9043d1d5f740dc234637a0f8cab63670"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "9946a3648743a6c9ea51bce745155ef093c6fffaf4ca05aa3399d9167e26bc32"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.aarch64-unknown-freebsd.tar.gz"
 [[OpenSSH]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "2d5a7984be837bf26fe52b4149e2d0dc383e3f52"
+git-tree-sha1 = "748ee47877d99e73a8618c93689b47e784e4575b"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "e553b4e097fe1ae0d79e1fe140730accd77e21bd72389897a5793e5242cc1813"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "38f50653612fd3811d6529f7ae3cf7c5af1336cb2521f9eb051ea0335909ea1d"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.armv6l-linux-gnueabihf.tar.gz"
 [[OpenSSH]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8e22123a474e008fd236a958401730f6ae36e41e"
+git-tree-sha1 = "3691902fae726d66c0f417219205bec1b3719374"
 libc = "musl"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "ccab89d4816a6110e73e241822af066f1404019d4cec39eb6fee7ed184964361"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "5d4bf12c496faa6018e244207dd416d25c11939e89f0cf596e391c3166f91e51"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.armv6l-linux-musleabihf.tar.gz"
 [[OpenSSH]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "9004dad8f00a66b2303bf0a894b78adcd0475a60"
+git-tree-sha1 = "ec7edfda517dae17177a76066ecc93fb1ee45688"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "8f7e7988523e16afa9cdfe368b15d7b9861d071e6c7be385b29cd3374fb706b7"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "505e5337bf3677a1e20ce11bbbfb8a73357f980e82823dfc20c7c14a2fd19d5c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.armv7l-linux-gnueabihf.tar.gz"
 [[OpenSSH]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "e7db92971042d6262be4f494e79f10e2cae6c05a"
+git-tree-sha1 = "3d978f1ef94d437061ae25e85ab474604c3d8852"
 libc = "musl"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "8b23d3323cff85c434de91b83f850b51f6637ef5404f3d98733a27cf4be6b38a"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "caf262fbc48d792ec0010e26a73e7482e78831baaf537b89214cc184878a3f48"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.armv7l-linux-musleabihf.tar.gz"
 [[OpenSSH]]
 arch = "i686"
-git-tree-sha1 = "84fd6ddb02cafefbabb230daf515dffd71d56fad"
+git-tree-sha1 = "deef5cdbe63de1bd9fc163c82fe3a25328d63663"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "d99ca664fd29788e14b7dbc318ef2becd1c57362fbc620e9bb15f778c0a27fa7"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.i686-linux-gnu.tar.gz"
+    sha256 = "88030d7d9d48a38b7fdca78b1147ceca7945921c9c5b5d4837ef362ea005372f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.i686-linux-gnu.tar.gz"
 [[OpenSSH]]
 arch = "i686"
-git-tree-sha1 = "547679d4a6b229c8b6670ddd3e224f07d6f882da"
+git-tree-sha1 = "2eb9f644ccd690967d9955cf01a74c3c978464fb"
 libc = "musl"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "b9cdaf3c6a393aa52d8bf351094127807ee3ccb594820a6273c17fdd37d896f8"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.i686-linux-musl.tar.gz"
+    sha256 = "830c56f9a525e5d439f9f19a88128e1c89e6d7faf008c7f3db3212105074a2ff"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.i686-linux-musl.tar.gz"
 [[OpenSSH]]
 arch = "i686"
 git-tree-sha1 = "0279aef37eecab0756e7b3609dd09b7e1ec253b4"
@@ -97,59 +97,59 @@ os = "windows"
 
     [[OpenSSH.download]]
     sha256 = "d6534f16320caef56134fe81df6794c588084cb6962c3898f044e06d571bcf9c"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.i686-w64-mingw32.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.i686-w64-mingw32.tar.gz"
 [[OpenSSH]]
 arch = "powerpc64le"
-git-tree-sha1 = "fd33fdfe7ef87eee53ae1941e31f9dcc387869b7"
+git-tree-sha1 = "531d19b377a8933e6d69ea0687621e90635db656"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "5a1ab6a3db662390d6534c2ed378f3f8fd2ce07f5e9c21e66bf460d4af3febca"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "d3ac188cc46faa0396916867de5fdc7be78db92d87892055f5fd4b22fef34307"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.powerpc64le-linux-gnu.tar.gz"
 [[OpenSSH]]
 arch = "riscv64"
-git-tree-sha1 = "31480663dc167c6f8e2f3752a1e6f9244fa16c18"
+git-tree-sha1 = "f640aa4c73a5fd834ce7101e3689d835e4f4e781"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "76c7eb7657a06d32801e45153301e9474bd29cea042feb079593a6009e2c59ad"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.riscv64-linux-gnu.tar.gz"
+    sha256 = "795fc9e611435c821643c0a6f471516f7257f23e095965689bdce3df38b8e6a6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.riscv64-linux-gnu.tar.gz"
 [[OpenSSH]]
 arch = "x86_64"
-git-tree-sha1 = "f74dd32cef69e0c80198895f82671e76edd7e512"
+git-tree-sha1 = "563cf51a53a21e6b266e73a87059410675aaaf85"
 os = "macos"
 
     [[OpenSSH.download]]
-    sha256 = "8422fe3cb799bf820de3744e8b7108be95b16453c4be8fa346ae0aadd429ec6d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.x86_64-apple-darwin.tar.gz"
+    sha256 = "f2541bb932ba039c27410f9998b29a226800197ea11814677ad88343a06d61d3"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.x86_64-apple-darwin.tar.gz"
 [[OpenSSH]]
 arch = "x86_64"
-git-tree-sha1 = "42f858d37092b1cd8328aaa7f38acb71dac43a2c"
+git-tree-sha1 = "f9a89bdc465f0a3fdf9be71a773b9884423eb05f"
 libc = "glibc"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "023d079e899f8205e393d1f5dc2aa6dd8f6f8489d4a45b6342f1a679a63bfaff"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "4bac7120cf3fce0ddb43d3a35e05aa677d188183f25c9ffcd6d4fe2c16f79af6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.x86_64-linux-gnu.tar.gz"
 [[OpenSSH]]
 arch = "x86_64"
-git-tree-sha1 = "3b0a90a9bb901982c4495ecd5f99a5f2a336e630"
+git-tree-sha1 = "b709adff49fed75beccb66ccce1fd58920d5bcaa"
 libc = "musl"
 os = "linux"
 
     [[OpenSSH.download]]
-    sha256 = "af5fdec1252af5892e51c7cba2f1789c2c945df6e75470cd76e7ed9306b8099a"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.x86_64-linux-musl.tar.gz"
+    sha256 = "0bc1c47b23ef7a44e27a547110a2bd4eab2f55ce09458182ac7c0a7af72ee924"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.x86_64-linux-musl.tar.gz"
 [[OpenSSH]]
 arch = "x86_64"
-git-tree-sha1 = "b61c46fc25dd7634fc3ee98549ec055969369100"
+git-tree-sha1 = "8c2ea3cc095ee5b74a943cba70919469a948bd3e"
 os = "freebsd"
 
     [[OpenSSH.download]]
-    sha256 = "dab2c6162d3ecee399774cbb821db512dc946c55c555742c48da4245857e73d6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "5ed8374312915293d7a1ea19e53d31ae2cf22ee95fc5e6d538396989d4cd0bbb"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.x86_64-unknown-freebsd.tar.gz"
 [[OpenSSH]]
 arch = "x86_64"
 git-tree-sha1 = "8a380ed334dece6e4696fa6c829049695e73a3b4"
@@ -157,4 +157,4 @@ os = "windows"
 
     [[OpenSSH.download]]
     sha256 = "8de6d3360c69955b45d8083b6c6e327e14606836600532073e7bd6af2fbe0975"
-    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.0.2+0/OpenSSH.v10.0.2.x86_64-w64-mingw32.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/OpenSSH_jll.jl/releases/download/OpenSSH-v10.1.1+0/OpenSSH.v10.1.1.x86_64-w64-mingw32.tar.gz"
