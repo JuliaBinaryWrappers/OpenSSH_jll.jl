@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("OpenSSH")
-JLLWrappers.@generate_main_file("OpenSSH", UUID("9bd350c2-7e96-507f-8002-3f2e150b4e1b"))
+JLLWrappers.@generate_main_file("OpenSSH", Base.UUID("9bd350c2-7e96-507f-8002-3f2e150b4e1b"))
 end  # module OpenSSH_jll
