@@ -2,15 +2,20 @@
 export scp, sftp, ssh, ssh_add, ssh_agent, ssh_keygen, ssh_keyscan
 
 JLLWrappers.@generate_wrapper_header("OpenSSH")
+JLLWrappers.@declare_executable_product(ssh)
 JLLWrappers.@declare_executable_product(scp)
 JLLWrappers.@declare_executable_product(sftp)
-JLLWrappers.@declare_executable_product(ssh)
-JLLWrappers.@declare_executable_product(ssh_add)
 JLLWrappers.@declare_executable_product(ssh_agent)
+JLLWrappers.@declare_executable_product(ssh_add)
 JLLWrappers.@declare_executable_product(ssh_keygen)
 JLLWrappers.@declare_executable_product(ssh_keyscan)
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_executable_product(
+        ssh,
+        "bin\\ssh.exe",
+    )
+
     JLLWrappers.@init_executable_product(
         scp,
         "bin\\scp.exe",
@@ -22,18 +27,13 @@ function __init__()
     )
 
     JLLWrappers.@init_executable_product(
-        ssh,
-        "bin\\ssh.exe",
+        ssh_agent,
+        "bin\\ssh-agent.exe",
     )
 
     JLLWrappers.@init_executable_product(
         ssh_add,
         "bin\\ssh-add.exe",
-    )
-
-    JLLWrappers.@init_executable_product(
-        ssh_agent,
-        "bin\\ssh-agent.exe",
     )
 
     JLLWrappers.@init_executable_product(
